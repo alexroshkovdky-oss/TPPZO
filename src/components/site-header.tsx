@@ -15,7 +15,7 @@ export function SiteHeader() {
         <Link
           href="/"
           aria-label="На главную"
-          className="absolute left-0 top-1/2 flex h-16 w-16 -translate-y-1/2 items-center justify-center rounded-2xl transition hover:bg-white/70"
+          className="absolute left-0 top-1/2 z-10 flex h-16 w-16 -translate-y-1/2 items-center justify-center rounded-2xl transition hover:bg-white/70"
         >
           <Image
             src="/logo.png"
@@ -29,7 +29,7 @@ export function SiteHeader() {
 
         <nav
           aria-label="Основная навигация"
-          className="hide-scrollbar -mx-1 flex items-center justify-center gap-1 overflow-x-auto pb-1"
+          className="hide-scrollbar flex w-full items-center justify-start gap-1 overflow-x-auto pb-1 pl-16 pr-1 md:-mx-1 md:justify-center md:pl-0 md:pr-0"
         >
           {navItems.map((item) => {
             const matchPaths = "matchPaths" in item ? item.matchPaths : undefined;
