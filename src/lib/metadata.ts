@@ -15,6 +15,9 @@ export function createMetadata(
     title: resolvedTitle,
     description: resolvedDescription,
     applicationName: siteContent.shortName,
+    verification: {
+      yandex: "6626053589",
+    },
     robots: {
       index: true,
       follow: true,
