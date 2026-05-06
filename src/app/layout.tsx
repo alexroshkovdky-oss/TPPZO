@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter_Tight, Manrope } from "next/font/google";
 import "./globals.css";
 
+import { AiAssistantWidget } from "@/components/ai-assistant-widget";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { createMetadata, organizationJsonLd } from "@/lib/metadata";
@@ -36,6 +37,7 @@ export default function RootLayout({
           <SiteHeader />
           <main>{children}</main>
           <SiteFooter />
+          <AiAssistantWidget />
         </div>
       </body>
     </html>
