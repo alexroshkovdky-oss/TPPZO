@@ -61,7 +61,7 @@ export default async function Home() {
           <SectionHeading
             eyebrow={siteContent.aboutHome.title}
             title={siteContent.aboutHome.lead}
-            description="Союз объединяет деловую, общественную и партнёрскую повестку вокруг тем, значимых для экономики и устойчивого развития региона."
+            description="Задача Союза — помогать участникам деловой среды переходить от общих предложений к понятным рабочим шагам."
           />
 
           <div className="space-y-6 text-lg leading-8 text-[var(--color-muted)]">
@@ -75,7 +75,7 @@ export default async function Home() {
       <section className="section-spacing border-y border-[var(--color-line)] bg-[var(--color-surface)]">
         <div className="site-container space-y-12">
           <SectionHeading
-            eyebrow="Направления деятельности"
+            eyebrow="Направления работы"
             title={siteContent.directionsIntro.title}
             description={siteContent.directionsIntro.lead}
           />
@@ -127,7 +127,7 @@ export default async function Home() {
         <div className="site-container grid gap-14 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]">
           <div className="max-w-3xl space-y-4 text-left">
             <p className="text-xs font-semibold uppercase tracking-[0.28em] text-[var(--color-accent)]">
-              Форматы взаимодействия
+              Рабочий формат
             </p>
             <h2 className="max-w-2xl text-2xl font-semibold tracking-[-0.05em] text-white sm:text-3xl lg:text-4xl">
               {siteContent.formats.title}
@@ -158,7 +158,7 @@ export default async function Home() {
       <section className="section-spacing border-y border-[var(--color-line)] bg-[var(--color-surface)]">
         <div className="site-container space-y-12">
           <SectionHeading
-            eyebrow="Актуальное"
+            eyebrow="Экономические новости"
             title={siteContent.news.title}
             description={siteContent.news.lead}
           />
