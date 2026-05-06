@@ -5,7 +5,7 @@ import { siteContent } from "@/lib/site-content";
 
 export const metadata = createMetadata(
   "Экономические новости России",
-  "Открытая лента экономических новостей России: промышленность, бизнес, инвестиции, торговля и деловая повестка из федеральных и отраслевых источников.",
+  "Лента экономических новостей России: промышленность, бизнес, инвестиции, торговля и решения, влияющие на деловую среду.",
 );
 
 export default async function NewsPage() {
@@ -15,7 +15,7 @@ export default async function NewsPage() {
   return (
     <>
       <PageHero
-        eyebrow="Экономическая повестка"
+        eyebrow="Новости экономики"
         title={siteContent.news.title}
         description={siteContent.news.lead}
       />
@@ -32,7 +32,7 @@ export default async function NewsPage() {
                   {item.period}
                 </p>
                 <p className="text-sm leading-7 text-[var(--color-soft)]">
-                  Открытая информация и публичная повестка
+                  По материалам открытых источников
                 </p>
               </div>
 
