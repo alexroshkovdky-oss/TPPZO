@@ -6,7 +6,7 @@ import { partnersCatalog, siteContent } from "@/lib/site-content";
 
 export const metadata = createMetadata(
   "Партнёры",
-  "Партнёрские организации и площадки, связанные с деловой и общественной повесткой Союза.",
+  "Партнёрские организации и площадки, связанные с деловыми и общественными задачами Союза.",
 );
 
 export default function MembersPage() {
