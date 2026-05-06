@@ -174,7 +174,7 @@ export function ContactForm({
       </div>
 
       <label className="block space-y-2 text-sm text-[var(--color-muted)]">
-        <span>Комментарий (необязательно)</span>
+        <span>Комментарий к обращению (необязательно)</span>
         <textarea
           value={formState.message}
           onChange={(event) =>
@@ -187,7 +187,12 @@ export function ContactForm({
       </label>
 
       <div className="flex flex-col gap-3 border-t border-[var(--color-line)] pt-5 sm:flex-row sm:items-center sm:justify-between">
-        <div className="space-y-1 text-sm text-[var(--color-muted)]">{feedback ? <p>{feedback}</p> : null}</div>
+        <div className="space-y-1 text-sm leading-6 text-[var(--color-muted)]">
+          <p>
+            {feedback ||
+              "После отправки обращения с вами свяжутся по указанным контактам, чтобы уточнить детали и определить дальнейший порядок взаимодействия."}
+          </p>
+        </div>
 
         <button
           type="submit"
