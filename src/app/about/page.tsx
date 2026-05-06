@@ -21,15 +21,21 @@ export default function AboutPage() {
         <div className="site-container grid gap-14 lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1.05fr)]">
           <SectionHeading
             eyebrow="Миссия"
-            title={siteContent.aboutPage.mission}
-            description="Союз рассматривает взаимодействие как основу для выстраивания устойчивых деловых и общественных связей."
+            title="Помогать бизнесу и партнёрским организациям переходить от разрозненных предложений к понятным рабочим решениям."
+            description="Союз рассматривает обращения, связанные с промышленностью, торговлей, кооперацией, деловыми коммуникациями и общественно значимыми проектами."
           />
 
           <div className="space-y-6 text-lg leading-8 text-[var(--color-muted)]">
-            <p>{siteContent.aboutPage.intro}</p>
-            {siteContent.aboutHome.paragraphs.map((paragraph) => (
-              <p key={paragraph}>{paragraph}</p>
-            ))}
+            <p>
+              Наша задача — помочь участникам сформулировать запрос, определить возможные
+              точки взаимодействия и организовать дальнейшее обсуждение с теми, кто может быть
+              полезен для решения конкретной задачи.
+            </p>
+            <p>
+              Мы не подменяем профильные органы, экспертов или исполнителей, но создаём деловой
+              контур, в котором предпринимателям и организациям проще находить контакт и двигаться
+              по понятному маршруту.
+            </p>
           </div>
         </div>
       </section>
@@ -74,7 +80,7 @@ export default function AboutPage() {
         <div className="site-container space-y-12">
           <SectionHeading
             eyebrow="Практические форматы работы"
-            title="Союз участвует не только в общественной и деловой повестке, но и в практической поддержке профильных обращений."
+            title="Практическая работа начинается с понятного запроса и аккуратно подготовленных материалов."
             description={siteContent.aboutPage.serviceFormatsIntro}
           />
 
@@ -121,7 +127,7 @@ export default function AboutPage() {
         <div className="site-container grid gap-8 lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1.05fr)]">
           <SectionHeading
             eyebrow="Юридическая информация"
-            title="Основные сведения об организации размещены в открытом доступе для удобства партнёров и посетителей сайта."
+            title="Основные сведения об организации размещены открыто, чтобы партнёры и посетители сайта могли быстро проверить реквизиты Союза."
             description={siteContent.aboutPage.legalInfo}
           />
 
