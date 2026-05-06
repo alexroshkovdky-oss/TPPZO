@@ -26,6 +26,10 @@ export default function ContactsPage() {
               </h2>
               <div className="mt-6 space-y-4 text-sm leading-7 text-[var(--color-muted)]">
                 <p>
+                  Для обращений используйте официальный email или форму на сайте. В сообщении
+                  желательно указать организацию, тему вопроса и удобный способ обратной связи.
+                </p>
+                <p>
                   Email:{" "}
                   <a
                     href={contactMailto}
