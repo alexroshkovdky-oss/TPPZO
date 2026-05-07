@@ -61,7 +61,7 @@ export default async function Home() {
           <SectionHeading
             eyebrow={siteContent.aboutHome.title}
             title={siteContent.aboutHome.lead}
-            description="Задача Союза — помогать участникам деловой среды переходить от общих предложений к понятным рабочим шагам."
+            description="Задача Союза — брать на себя организационный маршрут обращения: от постановки вопроса до документов, коммуникации и итогового этапа."
           />
 
           <div className="space-y-6 text-lg leading-8 text-[var(--color-muted)]">
