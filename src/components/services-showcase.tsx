@@ -75,8 +75,8 @@ export function ServicesShowcase({
         <div className="site-container space-y-12">
           <SectionHeading
             eyebrow="Каталог услуг"
-            title="Консультационная и организационная поддержка для бизнеса."
-            description="Выберите направление, которое ближе к вашей задаче. В карточке указано, с чем можно обратиться и какие материалы лучше подготовить заранее."
+            title="Услуги полного сопровождения для бизнеса."
+            description="Союз принимает задачу как целый процесс. На стороне Союза остаются маршрут, документы, коммуникация, профильные процедуры, координация участников и доведение вопроса до итогового этапа."
           />
 
           <div className="grid items-start gap-6 lg:grid-cols-2 xl:grid-cols-3">
@@ -187,7 +187,7 @@ export function ServicesShowcase({
                                 : "border-[var(--color-deep)]/35 text-[var(--color-deep)] hover:border-[var(--color-deep)] hover:text-[var(--color-ink)]"
                             }`}
                           >
-                            Обсудить услугу
+                            Оставить заявку на сопровождение
                           </button>
                         </div>
                       </div>
@@ -208,8 +208,8 @@ export function ServicesShowcase({
         <div className="site-container grid gap-12 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)]">
           <SectionHeading
             eyebrow="Обращение по услугам"
-            title="Не нашли подходящее направление?"
-            description="Направьте обращение через форму связи. Кратко опишите задачу, сферу деятельности и желаемый результат — после этого можно будет определить, какой формат поддержки или консультации подходит лучше всего."
+            title="Нужно закрыть вопрос целиком?"
+            description="Направьте обращение через форму связи. Опишите задачу, сферу деятельности и желаемый результат — Союз определит маршрут работы и возьмёт на себя сопровождение процесса."
           />
 
           <ContactForm selectedSubject={selectedSubject} />
