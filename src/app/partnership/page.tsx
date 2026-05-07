@@ -4,7 +4,7 @@ import { serviceCatalog } from "@/lib/site-content";
 
 export const metadata = createMetadata(
   "Услуги",
-  "Каталог услуг Союза: консультационная, организационная и рабочая поддержка по профильным вопросам бизнеса.",
+  "Каталог услуг Союза: полное организационное сопровождение профильных задач бизнеса.",
 );
 
 type PartnershipPageProps = {
