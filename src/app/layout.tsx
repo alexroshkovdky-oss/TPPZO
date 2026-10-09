@@ -25,7 +25,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ru" className={`${manrope.variable} ${interTight.variable}`}>
+    <html
+      lang="ru"
+      className={`${manrope.variable} ${interTight.variable}`}
+      suppressHydrationWarning
+    >
       <body>
         <script
           type="application/ld+json"
